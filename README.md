@@ -8,24 +8,24 @@ This repository provides code and resources for a Double Deep Q-Network (DDQN) w
 - Load Optimization: Focuses on optimizing memory usage across nodes in the cluster, ensuring balanced and efficient workload distribution to prevent memory bottlenecks and improve overall cluster performance.
 
 ## Notebook Architecture
-1. Pod model desciption
+1. **Pod model desciption** : 
 Details the modeling of jobs and pods within the Kubernetes environment.
-2. Define Imports
+2. **Define Imports** :
 Contains the necessary imports and dependencies required for the project.
-3. Cluster Simulation
+3. **Cluster Simulation** :
 Simulates the Kubernetes cluster environment, providing a realistic setting for training the DRL agent whci inlcudes :
-  3.1 Pod class
-   3.2 Node class
-   3.3 Cluster class 
-    3.4 Reward Functions : Defines the reward functions used to guide the agent's learning process.
+  3.1 **Pod class**
+   3.2 **Node class**
+   3.3 **Cluster class** 
+    3.4 **Reward Functions** : Defines the reward functions used to guide the agent's learning process.
              
-4. Agent Class
+4. **Agent Class** :
 Implements the DDQN agent, encapsulating the core logic of the learning algorithm.
-5. Experience Replay
+5. **Experience Replay** :
 Implements the experience replay mechanism to store and reuse past experiences.
-6. Environment Class
+6. **Environment Class** :
 Defines the environment class that interacts with the DDQN agent, simulating the Kubernetes cluster's state and transitions.
-7. main class
+7. **main class** :
 The main class orchestrates the training process, integrating all components and executing the training loop.
 
 
