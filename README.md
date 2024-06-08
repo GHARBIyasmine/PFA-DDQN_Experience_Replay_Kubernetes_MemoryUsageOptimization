@@ -15,13 +15,13 @@ Contains the necessary imports and dependencies required for the project.
 3. **Cluster Simulation** :
 Simulates the Kubernetes cluster environment, providing a realistic setting for training the DRL agent whci inlcudes :
 
-3.1 **Pod class**
+   3.1 **Pod class**
 
-3.2 **Node class**
+  3.2 **Node class**
 
-3.3 **Cluster class**
+  3.3 **Cluster class**
 
-3.4 **Reward Functions** : Defines the reward functions used to guide the agent's learning process.
+  3.4 **Reward Functions** : Defines the reward functions used to guide the agent's learning process.
              
 4. **Agent Class** :
 Implements the DDQN agent, encapsulating the core logic of the learning algorithm.
