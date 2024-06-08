@@ -1,6 +1,9 @@
 # PFA-DDQN_Experience_Replay
 This repository provides code and resources for a Double Deep Q-Network (DDQN) with Experience Replay, a deep reinforcement learning (DRL) solution for load optimization in edge Kubernetes clusters. It aims to enhance Kubernetes efficiency and performance by dynamically managing and redistributing workloads based on real-time memory usage across nodes.
 
+![Screenshot 2024-06-07 072900](https://github.com/GHARBIyasmine/PFA-DDQN_Experience_Replay/assets/99125118/71c33c21-a945-49d2-8b93-1630c1b21e76)
+
+
 ## Key Features
 - **Double Deep Q-Network (DDQN)**: Utilizes a DDQN architecture to enhance the stability and performance of the learning process by addressing the overestimation bias often found in standard DQNs.
 - **Experience Replay** : Implements an experience replay mechanism to store and reuse past experiences, which helps in breaking the correlation between consecutive experiences and improves learning efficiency.
