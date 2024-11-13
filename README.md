@@ -42,3 +42,6 @@ The main class orchestrates the training process, integrating all components and
 - TensorFlow 2.10.1
 - Numpy 1.26.4
 - Kubernetes cluster (simulated or real) for testing and deployment
+
+## Kubernetes Simulation
+Please click on the link to the other repository "PFA" for information about the Kubernetes simulation. 
